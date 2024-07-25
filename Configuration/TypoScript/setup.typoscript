@@ -213,3 +213,6 @@ plugin.tx_sitepackage_skeleton {
        siteLogo = {$plugin.tx_sitepackage_skeleton.settings.siteLogo}
     }
 }
+
+lib.logo = IMAGE
+lib.logo.file = EXT:sitepackage_skeleton/Resources/Public/Images/navbar-logo.svg

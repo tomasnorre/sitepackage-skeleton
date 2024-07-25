@@ -5,8 +5,7 @@
 
         <nav class="flex-wrap lg:flex items-center justify-between mb-20 lg:mb-40" x-data="{navbarOpen:false}">
             <div class="flex items-center justify-between mb-10 lg:mb-0">
-                <img src="{plugin.tx_sitepackage_skeleton.settings.siteLogo}" alt="Logo">
-                !!{plugin.tx_sitepackage_skeleton.settings.siteLogo}!!
+                <f:cObject typoscriptObjectPath="lib.logo" />
                 <button class="flex items-center justify-center border border-green-500 w-10 h-10 text-green-500 rounded-md outline-none lg:hidden ml-auto" @click="navbarOpen = !navbarOpen">
                     <i data-feather="menu"></i>
                 </button>
