@@ -42,7 +42,6 @@ page {
     }
 }
 
-
 ##############
 ### CONFIG ###
 ##############
@@ -51,6 +50,14 @@ config {
     removeDefaultJS = 0
     admPanel = 1
     prefixLocalAnchors = all
-    headerComment = build by sitepackagebuilder.com
+    headerComment = build by tomasnorre.dk
     sendCacheHeaders = 1
+}
+
+
+plugin.tx_sitepackage_skeleton {
+   settings {
+       # cat=plugin.tx_sitepackage_skeleton/file; type=string; label=Website Logo
+       siteLogo =
+   }
 }

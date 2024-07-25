@@ -148,7 +148,7 @@ page {
     }
 
     includeJSLibs {
-
+        tailwindcss = https://cdn.tailwindcss.com
     }
 
     includeJS {
@@ -163,6 +163,12 @@ page {
         sitepackage_skeleton_scripts = EXT:sitepackage_skeleton/Resources/Public/JavaScript/Dist/scripts.js
     }
 }
+
+
+page.bodyTag >
+page.bodyTagCObject = TEXT
+page.bodyTagCObject.value= bg-white
+page.bodyTagCObject.wrap = <body class="|">
 
 
 ################
@@ -200,4 +206,10 @@ config {
     compressCss = 0
     concatenateJs = 0
     concatenateCss = 0
+}
+
+plugin.tx_sitepackage_skeleton {
+    settings {
+       siteLogo = {$plugin.tx_sitepackage_skeleton.settings.siteLogo}
+    }
 }
