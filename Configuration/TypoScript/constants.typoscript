@@ -53,11 +53,3 @@ config {
     headerComment = build by tomasnorre.dk
     sendCacheHeaders = 1
 }
-
-
-plugin.tx_sitepackage_skeleton {
-   settings {
-       # cat=plugin.tx_sitepackage_skeleton/file; type=string; label=Website Logo
-       siteLogo =
-   }
-}
