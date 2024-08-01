@@ -144,7 +144,9 @@ page {
     }
 
     includeCSS {
-        sitepackage_skeleton_layout = EXT:sitepackage_skeleton/Resources/Public/Css/layout.min.css
+        # this should be minified for production
+        #sitepackage_skeleton_layout = EXT:sitepackage_skeleton/Resources/Public/Css/layout.min.css
+        sitepackage_skeleton_layout = EXT:sitepackage_skeleton/Resources/Public/Css/layout.css
     }
 
     includeJSLibs {

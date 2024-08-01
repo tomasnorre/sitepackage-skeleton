@@ -1,0 +1,11 @@
+.ce-gallery .ce-row {
+    display: flex
+}
+
+.ce-center .ce-row {
+    justify-content: center;
+}
+
+.ce-gallery figure.image {
+    filter: grayscale(1);
+}
