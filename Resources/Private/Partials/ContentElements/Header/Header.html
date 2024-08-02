@@ -2,12 +2,12 @@
 <f:if condition="{header}">
     <f:switch expression="{layout}">
         <f:case value="1">
-            <h1 class="{positionClass} text-4xl">
+            <h1 class="{positionClass} font-bold text-gray-700 text-xl md:text-4xl"">
                 <f:link.typolink parameter="{link}">{header}</f:link.typolink>
             </h1>
         </f:case>
         <f:case value="2">
-            <h2 class="{positionClass} text-3xl">
+            <h2 class="{positionClass} font-bold text-gray-700 text-3xl md:text-4xl mb-10">
                 <f:link.typolink parameter="{link}">{header}</f:link.typolink>
             </h2>
         </f:case>

@@ -9,3 +9,12 @@
 .ce-gallery figure.image {
     filter: grayscale(1);
 }
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    --tw-text-opacity: 1;
+    color: rgba(156, 163, 175, var(--tw-text-opacity));
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+}
